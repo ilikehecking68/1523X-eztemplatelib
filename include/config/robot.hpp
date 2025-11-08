@@ -9,7 +9,7 @@ namespace robot {
         inline pros::MotorGroup left({dt_left}, pros::MotorGearset::blue, pros::MotorEncoderUnits::degrees);
         inline pros::MotorGroup right({dt_right}, pros::MotorGearset::blue, pros::MotorEncoderUnits::degrees);
         constexpr int8_t imu_port = 19;
-        inline pros::Rotation horiz(18);
+        constexpr int8_t horiz_port = 18;
         inline pros::Distance goal_align1(1);
         inline pros::Distance goal_align2(2);
     }
